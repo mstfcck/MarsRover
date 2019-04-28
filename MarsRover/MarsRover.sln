@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F5FABDC-9F05-4851-BBE8-B24174A52E1A}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarsRover", "MarsRover\MarsRover.csproj", "{9E41AE1C-9C00-4B9B-8A14-9F3D04F9D0B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{B79EC65F-21FA-4C6E-A2E3-7FEA48C99ABE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D44E7256-BA83-4D33-8EA5-203F9AD283A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarsRover.Tests", "MarsRover.Tests\MarsRover.Tests.csproj", "{90D0021B-87F3-4096-8119-6EA0F0F87F69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadMe", "ReadMe", "{5DDF2E77-11C4-42D8-A748-DE3EF56DB223}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "screenshots", "screenshots", "{251C74B0-F2E3-4151-B401-3B1771A9223C}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe\screenshots\command-pattern.gif = ReadMe\screenshots\command-pattern.gif
+		ReadMe\screenshots\unit-test-coverage.png = ReadMe\screenshots\unit-test-coverage.png
+		ReadMe\screenshots\unit-test-sessions.png = ReadMe\screenshots\unit-test-sessions.png
+		ReadMe\screenshots\unit-tests.png = ReadMe\screenshots\unit-tests.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{A41A0E43-16AF-4E17-BF49-FB1E3F2E175D}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\MarsRoverTechnicalAnalysis.docx = Documents\MarsRoverTechnicalAnalysis.docx
+		Documents\MarsRoverTechnicalAnalysis.pdf = Documents\MarsRoverTechnicalAnalysis.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E41AE1C-9C00-4B9B-8A14-9F3D04F9D0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E41AE1C-9C00-4B9B-8A14-9F3D04F9D0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E41AE1C-9C00-4B9B-8A14-9F3D04F9D0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E41AE1C-9C00-4B9B-8A14-9F3D04F9D0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D0021B-87F3-4096-8119-6EA0F0F87F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D0021B-87F3-4096-8119-6EA0F0F87F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D0021B-87F3-4096-8119-6EA0F0F87F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D0021B-87F3-4096-8119-6EA0F0F87F69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E41AE1C-9C00-4B9B-8A14-9F3D04F9D0B7} = {B79EC65F-21FA-4C6E-A2E3-7FEA48C99ABE}
+		{90D0021B-87F3-4096-8119-6EA0F0F87F69} = {D44E7256-BA83-4D33-8EA5-203F9AD283A7}
+		{5DDF2E77-11C4-42D8-A748-DE3EF56DB223} = {4F5FABDC-9F05-4851-BBE8-B24174A52E1A}
+		{251C74B0-F2E3-4151-B401-3B1771A9223C} = {5DDF2E77-11C4-42D8-A748-DE3EF56DB223}
+		{A41A0E43-16AF-4E17-BF49-FB1E3F2E175D} = {4F5FABDC-9F05-4851-BBE8-B24174A52E1A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F5A74DD-2CFF-43B2-836A-92E613691D3A}
+	EndGlobalSection
+EndGlobal
