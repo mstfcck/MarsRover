@@ -60,7 +60,7 @@ Read more [here](./Documents/MarsRoverTechnicalAnalysis.pdf)
 ### Test Results
 Unit Tests                        |  Unit Test Coverage
 :-------------------------:|:-------------------------:
-![Unit Tests](ReadMe/screenshots/unit-tests.png) | ![Unit Test Coverage](ReadMe/screenshots/unit-test-coverage.png)
+![Unit Tests](Documents/screenshots/unit-tests.png) | ![Unit Test Coverage](Documents/screenshots/unit-test-coverage.png)
 
 
 ### References
